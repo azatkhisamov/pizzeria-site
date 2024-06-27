@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Pizzeria Uncle Azat</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="navigation">HOME</a>
+      <a href="#menu" class="navigation">MENU</a>
+      <a href="#about" class="navigation">ABOUT</a>
+      <a href="#contact" class="navigation">CONTACT</a>
+    </header>
+    <section class="pizza-image" id="home">
+      <span class="main-info">THIN</span>
+      <span class="main-info">CRUST PIZZA</span>
+      <a class="nav" href="#menu">LET ME SEE THE MENU</a>
+      <span class="extra-info">OPEN FROM 10AM TO 12PM</span>
+    </section>
+    <section class="menu-wrap" id="menu">
+      <h1 class="title">THE MENU</h1>
+      <div class="menu-content">
+        <div class="menu-sections">
+          <div class="menu-section-item" data-activity="active">Pizza</div>
+          <div class="menu-section-item" data-activity="disabled">Salads</div>
+          <div class="menu-section-item" data-activity="disabled">Starter</div>
+        </div>
+        <div class="menu-dishes" id="Pizza" data-show="show">
+          <div class="dish-item">
+            <h2 class="dish-name">Margherita</h2>
+            <span class="dish-ingredients"
+              >Fresh tomatoes, fresh mozzarella, fresh basil</span
+            >
+            <span class="dish-price">$12.50</span>
+          </div>
+          <div class="dish-item">
+            <h2 class="dish-name">Formaggio</h2>
+            <span class="dish-ingredients"
+              >Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</span
+            >
+            <span class="dish-price">$15.50</span>
+          </div>
+          <div class="dish-item">
+            <h2 class="dish-name">Chicken</h2>
+            <span class="dish-ingredients"
+              >Fresh tomatoes, mozzarella, chicken, onions</span
+            >
+            <span class="dish-price">$17.00</span>
+          </div>
+          <div class="dish-item">
+            <h2 class="dish-name">Pineapple'o'clock</h2>
+            <span class="dish-ingredients"
+              >Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh
+              basil</span
+            >
+            <span class="dish-price">$16.50</span>
+          </div>
+          <div class="dish-item">
+            <h2 class="dish-name">
+              Meat Town <span class="info-important">Hot!</span>
+            </h2>
+            <span class="dish-ingredients"
+              >Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef,
+              chicken</span
+            >
+            <span class="dish-price">$20.00</span>
+          </div>
+          <div class="dish-item">
+            <h2 class="dish-name">Parma <span class="info">New</span></h2>
+            <span class="dish-ingredients"
+              >Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</span
+            >
+            <span class="dish-price">$21.50</span>
+          </div>
+        </div>
+        <div class="menu-dishes" id="Salads" data-show="negative">
+          <div class="dish-item">
+            <h2 class="dish-name">Lasagna <span class="info">Popular</span></h2>
+            <span class="dish-ingredients"
+              >Special sauce, mozzarella, parmesan, ground beef</span
+            >
+            <span class="dish-price">$13.50</span>
+          </div>
+          <div class="dish-item">
+            <h2 class="dish-name">Ravioli <span class="info">Popular</span></h2>
+            <span class="dish-ingredients">Ravioli filled with cheese</span>
+            <span class="dish-price">$14.50</span>
+          </div>
+          <div class="dish-item">
+            <h2 class="dish-name">Spaghetti Classica</h2>
+            <span class="dish-ingredients"
+              >Fresh tomatoes, onions, ground beef</span
+            >
+            <span class="dish-price">$11.00</span>
+          </div>
+          <div class="dish-item">
+            <h2 class="dish-name">Seafood pasta</h2>
+            <span class="dish-ingredients"
+              >Salmon, shrimp, lobster, garlic</span
+            >
+            <span class="dish-price">$25.50</span>
+          </div>
+        </div>
+        <div class="menu-dishes" id="Starter" data-show="negative">
+          <div class="dish-item">
+            <h2 class="dish-name">
+              Today's Soup <span class="info">Seasonal</span>
+            </h2>
+            <span class="dish-ingredients">Ask the waiter</span>
+            <span class="dish-price">$5.50</span>
+          </div>
+          <div class="dish-item">
+            <h2 class="dish-name">Bruschetta</h2>
+            <span class="dish-ingredients"
+              >Bread with pesto, tomatoes, onion, garlic</span
+            >
+            <span class="dish-price">$8.50</span>
+          </div>
+          <div class="dish-item">
+            <h2 class="dish-name">Garlic bread</h2>
+            <span class="dish-ingredients"
+              >Grilled ciabatta, garlic butter, onions</span
+            >
+            <span class="dish-price">$9.50</span>
+          </div>
+          <div class="dish-item">
+            <h2 class="dish-name">Tomozzarella</h2>
+            <span class="dish-ingredients">Tomatoes and mozzarella</span>
+            <span class="dish-price">$10.50</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="description-wrap" id="about">
+      <h1 class="title">About</h1>
+      <div class="descriptions">
+        <p class="text-info">
+          The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat.
+        </p>
+        <div class="chef-info">
+            <div class="chef-info-item">
+                <p class="text-info"><b>The Chef?</b> Mr. Italiano himself</p>
+                <p class="text-info">We are proud of our interiors.</p>
+            </div>
+            <img src="images/chef.jpg" alt="Chef" class="chef-img">
+        </div>
+        <div class="pizzeria-img">
+            <img src="images/pizzeria.jpg" alt="Pizzeria">
+        </div>
+        <h2 class="subtitle">Opening Hours</h2>
+        <div class="opening-hours">
+            <p class="text-info">Mon & Tue CLOSED</p>
+            <p class="text-info">Friday 10:00 - 12:00</p>
+            <p class="text-info">Wednesday 10.00 - 24.00</p>
+            <p class="text-info">Saturday 10:00 - 23:00</p>
+            <p class="text-info">Thursday 10:00 - 24:00</p>
+            <p class="text-info">Sunday Closed</p>
+        </div>
+      </div>
+    </section>
+    <section class="pizzeria-main-img">
+    </section>
+    <section class="contact-wrap" id="contact">
+        <h1 class="title">
+            Contact
+        </h1>
+        <div class="contact">
+            <p class="text-info"><span class="info">FYI!</span> us at some address at some place or call us at 05050515-122330</p>
+            <p class="text-info">We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+            <h2 class="subtitle">Reserve a table, ask for today's special or just send us a message:</h2>
+            <form>
+                <input class="input" type="text" name="name" placeholder="Name" required>
+                <input class="input" type="number" name="count" placeholder="How many people" required>
+                <input class="input" type="date" name="date" placeholder="16.11.2020 20:20" required>
+                <input class="input" type="text" name="message" placeholder="Message/Special Requierements" required>
+                <button class="btn-submit">Send message</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="creator-name">Powered by Azat</div>
+    </footer>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
